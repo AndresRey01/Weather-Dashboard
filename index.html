@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
-    <title>Document</title>
+    <title>Weather Dashboard</title>
 </head>
 
 <body>
@@ -12,7 +12,7 @@
     <div class="container">
         <div class="weather-input">
             <h3>Enter a City Name</h3>
-            <input type="text" placeholder="E.g, New York, London, Moscow">
+            <input class="city-input" type="text" placeholder="E.g, New York, London, Moscow">
             <button class="search-btn">Search</button>
             <div class="separator"></div>
             <button class="location-btn">Use Current Location</button>
@@ -34,35 +34,34 @@
                 <h2>5-Day Forecast</h2>
                 <ul class="weather-cards">
                     <li class="card">
-                        <h2>(10-1-2023)</h2>
+                        <h3>(10-1-2023)</h3>
+                        <h4>Temp: 70°F</h4>
+                        <h4>Wind: 5 M/S</h4>
+                        <h4>Humidity: 67%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>(10-1-2023)</h3>
                         <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
                         <h4>Temp: 70°F</h4>
                         <h4>Wind: 5 M/S</h4>
                         <h4>Humidity: 67%</h4>
                     </li>
                     <li class="card">
-                        <h2>(10-1-2023)</h2>
+                        <h3>(10-1-2023)</h3>
                         <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
                         <h4>Temp: 70°F</h4>
                         <h4>Wind: 5 M/S</h4>
                         <h4>Humidity: 67%</h4>
                     </li>
                     <li class="card">
-                        <h2>(10-1-2023)</h2>
+                        <h3>(10-1-2023)</h3>
                         <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
                         <h4>Temp: 70°F</h4>
                         <h4>Wind: 5 M/S</h4>
                         <h4>Humidity: 67%</h4>
                     </li>
                     <li class="card">
-                        <h2>(10-1-2023)</h2>
-                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
-                        <h4>Temp: 70°F</h4>
-                        <h4>Wind: 5 M/S</h4>
-                        <h4>Humidity: 67%</h4>
-                    </li>
-                    <li class="card">
-                        <h2>(10-1-2023)</h2>
+                        <h3>(10-1-2023)</h3>
                         <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
                         <h4>Temp: 70°F</h4>
                         <h4>Wind: 5 M/S</h4>
@@ -72,6 +71,6 @@
             </div>
         </div>
     </div>
-    <script href="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js" defer></script>
 </body>
 </html>

@@ -80,7 +80,7 @@ const getCityCoordinates = () => {
 
             getWeatherDetails(name, lat, lon);
 
-            // Add a search history button
+            // Adds a search history button
             addSearchHistoryButton(name);
         })
         .catch(() => {

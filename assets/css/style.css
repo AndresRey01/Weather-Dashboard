@@ -48,15 +48,6 @@ h1 {
     justify-content: center;
 }
 
-.weather-input .separator::before {
-    content: "or";
-    color: gray;
-    font-size: 1.18rem;
-    padding: 0 15px;
-    margin-top: -4px;
-    background: lightblue;
-}
-
 .weather-input button {
     width: 100%;
     padding: 10px 0;
@@ -69,8 +60,23 @@ h1 {
     background: lightcoral;
 }
 
-.weather-input .location-btn {
+.search-history-btn {
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
     background: gray;
+    margin-top: 5px;
+}
+
+.search-history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .weather-data {
@@ -99,6 +105,7 @@ h1 {
 .current-weather .icon {
     max-width: 120px;
     margin-top: -15px;
+    text-transform: capitalize;
 }
 
 .current-weather .icon h6 {
